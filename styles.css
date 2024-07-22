@@ -5,118 +5,69 @@
     box-sizing: border-box;
 }
 
-/* Stylizacja dla całego ciała dokumentu */
+
 body {
-    background-color: #121212; /* Ciemne tło */
-    color: #ffffff; /* Jasny tekst */
-    font-family: Arial, sans-serif; /* Ustawienie podstawowej czcionki */
-    line-height: 1.6; /* Poprawa czytelności tekstu */
-    padding: 20px; /* Dodanie marginesu wewnętrznego dla całego dokumentu */
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-/* Stylizacja listy i elementów listy */
+
 ul {
-    list-style-type: none; /* Usunięcie punktorów z listy */
+    list-style-type: none;
     padding: 0;
 }
 
 li {
-    margin-bottom: 15px; /* Dodanie odstępu między elementami listy */
+    margin-bottom: 15px;
 }
 
-/* Stylizacja przycisków */
+a {
+    color: #33bbff;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+
 button {
-    background-color: #1e1e1e; /* Ciemne tło przycisku */
-    color: #ffffff; /* Jasny kolor tekstu przycisku */
-    padding: 15px; /* Wewnętrzny odstęp przycisku */
-    border: none; /* Usunięcie obramowania */
-    border-radius: 5px; /* Zaokrąglenie rogów przycisku */
-    cursor: pointer; /* Zmiana kursora na wskaźnik */
-    width: 100%; /* Przyciski na pełną szerokość */
-    text-align: left; /* Wyrównanie tekstu do lewej */
-    transition: background-color 0.3s ease; /* Efekt przejścia przy zmianie koloru */
+    background-color: #1e1e1e;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-/* Stylizacja linków w przyciskach */
 button a {
-    color: inherit; /* Dziedziczenie koloru z przycisku */
-    text-decoration: none; /* Usunięcie podkreślenia linku */
-    display: block; /* Link zajmuje pełną powierzchnię przycisku */
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 
-/* Efekt hover dla przycisków */
 button:hover {
-    background-color: #333333; /* Zmiana koloru tła przycisku po najechaniu */
+    background-color: #333333;
 }
 
-/* Stylizacja responsywna dla urządzeń mobilnych */
+
 @media (max-width: 600px) {
     body {
-        padding: 10px; /* Zmniejszenie marginesów wewnętrznych na mniejszych ekranach */
+        padding: 10px;
     }
 
     button {
-        font-size: 14px; /* Mniejsza czcionka dla przycisków na małych ekranach */
-    }
-}
-/* Resetowanie marginesów i paddingów domyślnych dla wszystkich elementów */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Stylizacja dla całego ciała dokumentu */
-body {
-    background-color: #121212; /* Ciemne tło */
-    color: #ffffff; /* Jasny tekst */
-    font-family: Arial, sans-serif; /* Ustawienie podstawowej czcionki */
-    line-height: 1.6; /* Poprawa czytelności tekstu */
-    padding: 20px; /* Dodanie marginesu wewnętrznego dla całego dokumentu */
-}
-
-/* Stylizacja listy i elementów listy */
-ul {
-    list-style-type: none; /* Usunięcie punktorów z listy */
-    padding: 0;
-}
-
-li {
-    margin-bottom: 15px; /* Dodanie odstępu między elementami listy */
-}
-
-/* Stylizacja przycisków */
-button {
-    background-color: #1e1e1e; /* Ciemne tło przycisku */
-    color: #ffffff; /* Jasny kolor tekstu przycisku */
-    padding: 15px; /* Wewnętrzny odstęp przycisku */
-    border: none; /* Usunięcie obramowania */
-    border-radius: 5px; /* Zaokrąglenie rogów przycisku */
-    cursor: pointer; /* Zmiana kursora na wskaźnik */
-    width: 100%; /* Przyciski na pełną szerokość */
-    text-align: left; /* Wyrównanie tekstu do lewej */
-    transition: background-color 0.3s ease; /* Efekt przejścia przy zmianie koloru */
-}
-
-/* Stylizacja linków w przyciskach */
-button a {
-    color: inherit; /* Dziedziczenie koloru z przycisku */
-    text-decoration: none; /* Usunięcie podkreślenia linku */
-    display: block; /* Link zajmuje pełną powierzchnię przycisku */
-}
-
-/* Efekt hover dla przycisków */
-button:hover {
-    background-color: #333333; /* Zmiana koloru tła przycisku po najechaniu */
-}
-
-/* Stylizacja responsywna dla urządzeń mobilnych */
-@media (max-width: 600px) {
-    body {
-        padding: 10px; /* Zmniejszenie marginesów wewnętrznych na mniejszych ekranach */
-    }
-
-    button {
-        font-size: 14px; /* Mniejsza czcionka dla przycisków na małych ekranach */
+        font-size: 14px;
     }
 }
