@@ -1,0 +1,122 @@
+/* Resetowanie marginesów i paddingów domyślnych dla wszystkich elementów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja dla całego ciała dokumentu */
+body {
+    background-color: #121212; /* Ciemne tło */
+    color: #ffffff; /* Jasny tekst */
+    font-family: Arial, sans-serif; /* Ustawienie podstawowej czcionki */
+    line-height: 1.6; /* Poprawa czytelności tekstu */
+    padding: 20px; /* Dodanie marginesu wewnętrznego dla całego dokumentu */
+}
+
+/* Stylizacja listy i elementów listy */
+ul {
+    list-style-type: none; /* Usunięcie punktorów z listy */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px; /* Dodanie odstępu między elementami listy */
+}
+
+/* Stylizacja przycisków */
+button {
+    background-color: #1e1e1e; /* Ciemne tło przycisku */
+    color: #ffffff; /* Jasny kolor tekstu przycisku */
+    padding: 15px; /* Wewnętrzny odstęp przycisku */
+    border: none; /* Usunięcie obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów przycisku */
+    cursor: pointer; /* Zmiana kursora na wskaźnik */
+    width: 100%; /* Przyciski na pełną szerokość */
+    text-align: left; /* Wyrównanie tekstu do lewej */
+    transition: background-color 0.3s ease; /* Efekt przejścia przy zmianie koloru */
+}
+
+/* Stylizacja linków w przyciskach */
+button a {
+    color: inherit; /* Dziedziczenie koloru z przycisku */
+    text-decoration: none; /* Usunięcie podkreślenia linku */
+    display: block; /* Link zajmuje pełną powierzchnię przycisku */
+}
+
+/* Efekt hover dla przycisków */
+button:hover {
+    background-color: #333333; /* Zmiana koloru tła przycisku po najechaniu */
+}
+
+/* Stylizacja responsywna dla urządzeń mobilnych */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Zmniejszenie marginesów wewnętrznych na mniejszych ekranach */
+    }
+
+    button {
+        font-size: 14px; /* Mniejsza czcionka dla przycisków na małych ekranach */
+    }
+}
+/* Resetowanie marginesów i paddingów domyślnych dla wszystkich elementów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja dla całego ciała dokumentu */
+body {
+    background-color: #121212; /* Ciemne tło */
+    color: #ffffff; /* Jasny tekst */
+    font-family: Arial, sans-serif; /* Ustawienie podstawowej czcionki */
+    line-height: 1.6; /* Poprawa czytelności tekstu */
+    padding: 20px; /* Dodanie marginesu wewnętrznego dla całego dokumentu */
+}
+
+/* Stylizacja listy i elementów listy */
+ul {
+    list-style-type: none; /* Usunięcie punktorów z listy */
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px; /* Dodanie odstępu między elementami listy */
+}
+
+/* Stylizacja przycisków */
+button {
+    background-color: #1e1e1e; /* Ciemne tło przycisku */
+    color: #ffffff; /* Jasny kolor tekstu przycisku */
+    padding: 15px; /* Wewnętrzny odstęp przycisku */
+    border: none; /* Usunięcie obramowania */
+    border-radius: 5px; /* Zaokrąglenie rogów przycisku */
+    cursor: pointer; /* Zmiana kursora na wskaźnik */
+    width: 100%; /* Przyciski na pełną szerokość */
+    text-align: left; /* Wyrównanie tekstu do lewej */
+    transition: background-color 0.3s ease; /* Efekt przejścia przy zmianie koloru */
+}
+
+/* Stylizacja linków w przyciskach */
+button a {
+    color: inherit; /* Dziedziczenie koloru z przycisku */
+    text-decoration: none; /* Usunięcie podkreślenia linku */
+    display: block; /* Link zajmuje pełną powierzchnię przycisku */
+}
+
+/* Efekt hover dla przycisków */
+button:hover {
+    background-color: #333333; /* Zmiana koloru tła przycisku po najechaniu */
+}
+
+/* Stylizacja responsywna dla urządzeń mobilnych */
+@media (max-width: 600px) {
+    body {
+        padding: 10px; /* Zmniejszenie marginesów wewnętrznych na mniejszych ekranach */
+    }
+
+    button {
+        font-size: 14px; /* Mniejsza czcionka dla przycisków na małych ekranach */
+    }
+}
