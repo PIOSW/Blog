@@ -62,14 +62,46 @@ button:hover {
 }
 
 
-@media (max-width: 600px) {
-    body {
-        padding: 10px;
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
     }
 
-    button {
-        font-size: 14px;
+    header h3 {
+        font-size: 1em;
     }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    form button {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    header h3 {
+        font-size: 0.9em;
+    }
+
+    form input[type="email"],
+        form textarea {
+            font-size: 0.9em;
+        }
+
+        form button {
+            font-size: 0.8em;
+        }
 }
 
 
